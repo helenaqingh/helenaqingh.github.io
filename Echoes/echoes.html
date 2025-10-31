@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Echoes | Helena Huang</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    .echoes-section {
+      background-color: #FFFFFF;
+      color: #000000;
+      text-align: center;
+      padding-top: 100px;
+      padding-bottom: 80px;
+    }
+
+    .echoes-section h1 {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 1.2em;
+      margin-bottom: 15px;
+    }
+
+    .echoes-section .intro {
+      font-family: 'EB Garamond', serif;
+      font-size: 1.1em;
+      margin-bottom: 40px;
+      color: #000000;
+    }
+
+    .content-block {
+      width: 85%;
+      max-width: 900px;
+      margin: 0 auto 60px;
+      text-align: left;
+    }
+
+    .content-block h2 {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 1em;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .entry {
+      border: 1px solid #000000;
+      border-radius: 6px;
+      overflow: hidden;
+      background-color: #FFFFFF;
+      margin-bottom: 35px;
+      transition: transform 0.3s ease;
+    }
+
+    .entry:hover {
+      transform: scale(1.01);
+    }
+
+    .entry img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      display: block;
+      filter: grayscale(100%) contrast(110%);
+      transition: filter 0.3s;
+    }
+
+    .entry img:hover {
+      filter: none;
+    }
+
+    .entry-text {
+      font-family: 'EB Garamond', serif;
+      font-size: 1.05em;
+      line-height: 1.8;
+      padding: 15px 20px;
+      color: #000000;
+    }
+
+    .entry-text a {
+      color: #000000;
+      text-decoration: underline;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    .entry-text a:hover {
+      color: #555555;
+    }
+
+    @media (max-width: 650px) {
+      .entry img { height: 200px; }
+      .entry-text { font-size: 1em; }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- === Navigation Bar === -->
+  <nav class="navbar">
+    <div class="logo">Helena Huang</div>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../research/research.html">Research</a></li>
+      <li><a href="../photos/photos.html">Photos</a></li>
+      <li><a href="../garden/garden.html">Garden</a></li>
+      <li><a href="echoes.html" class="active">Echoes</a></li>
+    </ul>
+  </nav>
+
+  <!-- === Echoes Section === -->
+  <section class="echoes-section">
+    <h1>Echoes</h1>
+    <p class="intro">Stories and ideas that continue to echo in my thoughts.</p>
+
+<!-- === TV Shows === -->
+<div class="content-block">
+  <h2>TV Shows That I Like</h2>
+  <div class="entry">
+    <img 
+      src="../images/Royal Nirvana.jpg" 
+      alt="Royal Nirvana image" 
+      style="width:100%; height: 480px; object-fit:cover;" 
+    />
+    <div class="entry-text">
+      《鶴唳華亭》 <em>(Royal Nirvana)</em> is a historical drama based on the novel by Xue Man Liang Yuan, released in 2019.  
+      The story follows Lu Wenxi, a Confucian scholar who enters the complex world of the royal court to seek justice for her wrongfully accused father and brother.  
+      The series holds deep value for its classical Chinese aesthetics and its exploration of Confucian ideals, feudal order, and the human condition.  
+      My favorite line from the series is: 「可得解脱处，唯神佛前，与山水间」 — one finds release only before the divine, or among mountains and rivers.  
+      <br><br>
+      <a href="https://www.imdb.com/title/tt11252906/" target="_blank">Read more on IMDB</a>
+    </div>
+
+    <!-- === Image Citation === -->
+    <p class="img-source">
+      Image: <em>Royal Nirvana</em> (2019) still by Tencent Pictures / Youku at 
+      <a href="https://www.imdb.com/title/tt11252906/" target="_blank">https://www.imdb.com/title/tt11252906/</a>, All Rights Reserved.
+    </p>
+  </div>
+</div>
+
+
+<!-- === Books === -->
+<div class="content-block">
+  <h2>Books I’ve Been Reading and Loved</h2>
+  <div class="entry">
+    <img 
+      src="../images/Golden Peach.jpg" 
+      alt="Golden Peach book cover" 
+      style="width:100%; height: 480px; object-fit:cover;" 
+    />
+    <div class="entry-text">
+      《金桃》 <em>(Golden Peach)</em> by <strong>Wanqing Yang</strong> is a science fiction novel set in the 8th century, when exchanges across Eurasia flourished through the Silk Road, sparking a technological civilization rivaling the Industrial Revolution.  
+      Hidden deep within the desert, an academy guards the world’s most advanced mechanical algorithm known as the “Golden Peach,” said to possess the power to change the world.  
+      Amid war and chaos, three travelers — a foreign girl carrying the secret of the Golden Peach, a Tang soldier eager for glory, and a mysterious envoy from the Shadow Kingdom — set off together on a journey filled with tears, blood, and destiny.  
+      <br><br>
+      <a href="https://book.douban.com/subject/37180039/" target="_blank">Read more in Douban</a>
+    </div>
+
+    <!-- === Image Citation === -->
+    <p class="img-source">
+      Image: <em>Golden Peach</em> (《金桃》) book cover by Wanqing Yang at 
+      <a href="https://book.douban.com/subject/37180039/" target="_blank">https://book.douban.com/subject/37180039/</a>, All Rights Reserved.
+    </p>
+  </div>
+</div>
+
+
+  <!-- === Footer === -->
+  <footer>
+    <p>© 2025 Helena Huang · All rights reserved.</p>
+  </footer>
+</body>
+</html>
