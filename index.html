@@ -1,15 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
-<script src=""></script>
-<!--- Code above this line will not be displayed on the browser -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Helena Huang | Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    /* list */
+    .hero ul {
+      list-style-type: disc;
+      margin: 15px auto;
+      padding-left: 40px;
+      max-width: 700px;
+      text-align: left;
+      font-family: 'EB Garamond', serif;
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+
+    .hero li {
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+
 <body>
-<p> Hello world! </p>
-<p> My name is Helena Huang </p>
+  <!-- === Navigation Bar === -->
+  <nav class="navbar">
+    <div class="logo">Helena Huang</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="research/research.html">Research</a></li>
+      <li><a href="graden/garden.html">My Garden</a></li>
+      <li><a href="photos/photos.html">Photos</a></li>
+      <li><a href="Echoes/echoes.html">Echoes</a></li>
+    </ul>
+  </nav>
+
+  <!-- === Hero Section === -->
+  <section class="hero">
+    <div class="hero-content">
+      <img src="images/helena-portrait.jpg" alt="Portrait of Helena" class="hero-img" />
+      <h1>Hi, I'm Helena</h1>
+      <p>
+        I'm a undergraduate student at UW-Madison, majoring in data science, statisctis and information science.
+        I'm boradaly interested in data visualization & HCI, espeicaly in building interative ways for people to better egage with data visualization and uncover underlying patterns and information from big datasets, espeically for vurable groups.
+      </p>
+
+      <ul>
+        <li>I enjoy reading, especially Chinese classics.</li>
+        <li>I love gardening and sewing.</li>
+        <li>As a fan of traditional clothing, I often look for historical documents to recreate ancient garments.</li>
+        <li>I like visiting historical sites and taking photos — check out some of the <a href="photos/photos.html">photos I took</a>.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- === Footer === -->
+  <footer>
+    <p>© 2025 Helena Huang · All rights reserved.</p>
+  </footer>
 </body>
+</html>
 </html>
